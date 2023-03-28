@@ -29,6 +29,11 @@
   --clr-secondary-400: hsl(var(--clr-secondary-hsl-400));
   --clr-secondary-500: hsl(var(--clr-secondary-hsl-500));
 
+  --clr-accent-hsl-1: 0, 100%, 67%;
+  --clr-accent-hsl-2: 39, 100%, 56%;
+  --clr-accent-hsl-3: 166, 100%, 37%;
+  --clr-accent-hsl-4: 234, 85%, 45%;
+
   --clr-neutral-100: hsl(var(--clr-neutral-hsl-100));
   --clr-neutral-200: hsl(var(--clr-neutral-hsl-200));
   --clr-neutral-300: hsl(var(--clr-neutral-hsl-300));
