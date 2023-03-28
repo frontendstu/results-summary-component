@@ -23,6 +23,11 @@
   --clr-neutral-hsl-200: 221, 100%, 96%;
   --clr-neutral-hsl-300: 241, 100%, 89%;
   --clr-neutral-hsl-700: 224, 30%, 27%;
+
+  --clr-primary-400: hsl(var(--clr-primary-hsl-400));
+  --clr-primary-500: hsl(var(--clr-primary-hsl-500));
+  --clr-secondary-400: hsl(var(--clr-secondary-hsl-400));
+  --clr-secondary-500: hsl(var(--clr-secondary-hsl-500));
 }
 
 /********************************************
