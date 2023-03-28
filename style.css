@@ -48,6 +48,8 @@
     var(--clr-primary-500),
     hsl(var(--clr-secondary-hsl-500), 0.2)
   );
+
+  --font-family-default: 'HankenGrotesk', sans-serif;
 }
 
 /********************************************
