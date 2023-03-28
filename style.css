@@ -2,7 +2,12 @@
  * FONT IMPORT
  *******************************************/
 
-@import url('add_font_url');
+@font-face {
+  font-family: 'HankenGrotesk';
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
 
 /********************************************
  * VARIABLES
@@ -14,38 +19,3 @@
 /********************************************
  * RESET
  *******************************************/
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font: inherit;
-}
-
-html {
-  color-scheme: dark light;
-}
-
-body {
-  min-height: 100vh;
-}
-
-img,
-picture,
-svg,
-video {
-  display: block;
-  max-width: 100%;
-}
-
-input,
-textarea,
-button,
-select {
-  font: inherit;
-}
