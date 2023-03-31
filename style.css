@@ -234,3 +234,21 @@ body {
   color: hsl(var(--item-colour));
   font-weight: var(--fw-bold);
 }
+
+/* Summary Item Accent Colours
+ *******************************************/
+.summary-item[data-item-type='accent-1'] {
+  --item-colour: var(--clr-accent-hsl-1);
+}
+
+.summary-item[data-item-type='accent-2'] {
+  --item-colour: var(--clr-accent-hsl-2);
+}
+
+.summary-item[data-item-type='accent-3'] {
+  --item-colour: var(--clr-accent-hsl-3);
+}
+
+.summary-item[data-item-type='accent-4'] {
+  --item-colour: var(--clr-accent-hsl-4);
+}
