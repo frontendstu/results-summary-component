@@ -127,6 +127,7 @@ body {
  *******************************************/
 
 .results-summary {
+  --border-radius: 2rem;
   max-width: 46rem;
   display: grid;
 }
@@ -134,7 +135,7 @@ body {
 @media (min-width: 600px) {
   .results-summary {
     grid-template-columns: 1fr 1fr;
-    border-radius: 2rem;
+    border-radius: var(--border-radius);
     overflow: hidden; /* Displays rounded corners on the left */
     box-shadow: 0.5rem 1rem 3rem hsl(var(--clr-neutral-hsl-700), 0.2);
   }
@@ -148,4 +149,5 @@ body {
   color: hsl(var(--clr-neutral-hsl-100), 0.7);
   text-align: center;
   background: var(--gradient-primary);
+  border-radius: var(--border-radius);
 }
