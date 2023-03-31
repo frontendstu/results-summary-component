@@ -229,3 +229,8 @@ body {
 .summary-item svg {
   stroke: hsl(var(--item-colour));
 }
+
+.summary-title {
+  color: hsl(var(--item-colour));
+  font-weight: var(--fw-bold);
+}
