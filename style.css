@@ -151,10 +151,16 @@ body {
   color: hsl(var(--clr-neutral-hsl-100), 0.7);
   text-align: center;
   background: var(--gradient-primary);
-  border-radius: var(--border-radius);
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
 .results,
 .summary {
   padding: var(--padding);
+}
+
+@media (min-width: 600px) {
+  .results {
+    border-radius: var(--border-radius);
+  }
 }
