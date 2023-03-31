@@ -136,6 +136,7 @@ body {
 
 @media (min-width: 600px) {
   .results-summary {
+    margin-inline: 1rem;
     grid-template-columns: 1fr 1fr;
     border-radius: var(--border-radius);
     overflow: hidden; /* Displays rounded corners on the left */
