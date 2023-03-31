@@ -127,7 +127,9 @@ body {
  *******************************************/
 
 .results-summary {
+  --padding: 2.5rem;
   --border-radius: 2rem;
+
   max-width: 46rem;
   display: grid;
 }
@@ -150,4 +152,9 @@ body {
   text-align: center;
   background: var(--gradient-primary);
   border-radius: var(--border-radius);
+}
+
+.results,
+.summary {
+  padding: var(--padding);
 }
