@@ -223,9 +223,9 @@ body {
   align-items: center;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: lightblue;
+  background-color: hsl(var(--item-colour), 0.1);
 }
 
 .summary-item svg {
-  stroke: red;
+  stroke: hsl(var(--item-colour));
 }
