@@ -137,6 +137,7 @@ body {
     margin-inline: 1rem;
     grid-template-columns: 1fr 1fr;
     overflow: hidden;
+    border-radius: var(--border-radius);
     box-shadow: 0.5rem 1rem 3rem hsl(var(--clr-neutral-hsl-700), 0.2);
   }
 }
