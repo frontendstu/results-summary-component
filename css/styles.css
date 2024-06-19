@@ -141,6 +141,7 @@ body {
 
   max-width: 46rem;
   display: grid;
+  background-color: var(--clr-neutral-100);
 }
 
 @media (min-width: 600px) {
