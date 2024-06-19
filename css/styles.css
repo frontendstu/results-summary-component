@@ -185,3 +185,12 @@ body {
   font-size: var(--fs-700);
   font-weight: var(--fw-bold);
 }
+
+/********** Summary Styles */
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
