@@ -82,6 +82,7 @@ svg {
 body {
   font-family: var(--ff-default);
   font-size: var(--fs-400);
+  background-color: var(--clr-neutral-150);
   color: var(--clr-neutral-700);
 }
 
